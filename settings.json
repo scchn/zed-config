@@ -24,5 +24,8 @@
   },
   "format_on_save": "off",
   "ensure_final_newline_on_save": true,
-  "remove_trailing_whitespace_on_save": false
+  "remove_trailing_whitespace_on_save": false,
+  "terminal": {
+    "font_size": 14
+  }
 }
