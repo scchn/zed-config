@@ -7,8 +7,11 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "collaboration_panel": {
+    "dock": "right"
+  },
   "vim_mode": false,
-  "theme": "Rosé Pine Moon",
+  "theme": "Ayu Dark",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -23,9 +26,9 @@
     }
   },
   "format_on_save": "off",
-  "ensure_final_newline_on_save": true,
-  "remove_trailing_whitespace_on_save": false,
+  "ensure_final_newline_on_save": false,
+  "remove_trailing_whitespace_on_save": true,
   "terminal": {
-    "font_size": 14
+    "font_size": 13
   }
 }
