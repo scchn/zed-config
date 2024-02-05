@@ -7,9 +7,6 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "collaboration_panel": {
-    "dock": "right"
-  },
   "vim_mode": false,
   "theme": "Ayu Dark",
   "telemetry": {
@@ -17,16 +14,12 @@
     "metrics": false
   },
   "ui_font_size": 16,
-  "ui_font_family": "Menlo",
+  "ui_font_family": "Monaco",
   "buffer_font_size": 16,
-  "buffer_font_family": "Menlo",
-  "autosave": {
-    "after_delay": {
-      "milliseconds": 500
-    }
-  },
-  "format_on_save": "off",
-  "ensure_final_newline_on_save": false,
+  "buffer_font_family": "Monaco",
+  "autosave": "on_focus_change",
+  "format_on_save": "on",
+  "ensure_final_newline_on_save": true,
   "remove_trailing_whitespace_on_save": true,
   "terminal": {
     "font_size": 13
